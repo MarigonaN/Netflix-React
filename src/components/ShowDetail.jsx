@@ -35,7 +35,7 @@ class MovieDetail extends React.Component{
         // console.log(movieId)
         // console.log(this.state.newComment.elementId)
         const username ='user19'
-        const password = 'dXNlcjE5Okh4eDhSNHdaZkNBTmFtcmo6'
+        const password = 'Hxx8R4wZfCANamrj'
         const headers =new Headers({
         "Content-Type" : "application/json",
         'Authorization': 'Basic ' + btoa(username + ":" + password),
@@ -85,7 +85,7 @@ class MovieDetail extends React.Component{
         e.preventDefault();
         
         const username ='user19'
-        const password = 'dXNlcjE5Okh4eDhSNHdaZkNBTmFtcmo6'
+        const password = 'Hxx8R4wZfCANamrj'
         const headers =new Headers({
         "Content-Type" : "application/json",
         'Authorization': 'Basic ' + btoa(username + ":" + password),
