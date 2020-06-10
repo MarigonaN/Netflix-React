@@ -96,7 +96,7 @@ class Register extends React.Component {
             {this.state.errMess}
           </Alert>
         )}
-        <h3 className="bg-info">Register</h3>
+        <h3 className="text-light">Register</h3>
         {
           this.state.isLoading && (
             <div className="d-flex justify-content-center my-5">
