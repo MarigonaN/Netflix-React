@@ -1,6 +1,6 @@
 import React from "react";
 import { Badge, ListGroup } from "react-bootstrap";
-import { render } from "@testing-library/react";
+
 
 class CommentList extends React.Component{
   state = {
