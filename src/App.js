@@ -33,7 +33,7 @@ class App extends Component {
         <Router>
           <Navbar showSearchResult={this.showSearchResult} />
           <Route path="/" exact render={(props) => <SearchResult {...props} item={this.state.searchedMovies} />} />
-          <Route path="/details/:id" component={MovieDetail} />
+         
           <Route path="/register" component={Register} />
           <Footer />
         </Router>
