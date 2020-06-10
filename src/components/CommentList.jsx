@@ -10,7 +10,7 @@ class CommentList extends React.Component{
 
   componentDidMount = async () => {
       const username = 'user19';
-      const password = 'dXNlcjE5Okh4eDhSNHdaZkNBTmFtcmo6';
+      const password = 'Hxx8R4wZfCANamrj';
 
       const headers = new Headers();
 
