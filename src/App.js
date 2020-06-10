@@ -4,8 +4,6 @@ import { Container, Alert, Dropdown } from "react-bootstrap";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
-import ShowDetail from "./components/ShowDetail";
-import {BrowserRouter, Route, Router} from "react-router-dom"
 
 class App extends Component {
   constructor(props) {
@@ -101,7 +99,6 @@ class App extends Component {
             )}
             {!this.state.error && !this.state.searchedMovies.length > 0 && (
               <>
-             
                 <Gallery
                   title="Harry Potter"
                   loading={this.state.loading}
@@ -117,14 +114,10 @@ class App extends Component {
                   loading={this.state.loading}
                   movies={this.state.starWarsMovies.slice(0, 6)}
                 />
-                <ShowDetail/>
               </>
             )}
-            
             <Footer />
           </Container>
-         
-        
         </div>
       </div>
     );
